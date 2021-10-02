@@ -11,13 +11,11 @@ h1{
 .half-width{
     width: 40%;
     margin-left: 5%;
-    padding-left: 2px;
+    padding-left: 2%;
     float: left;
 }
 .half-width img{
     width: 80%;
-    margin-top: 5%;
-    float: right;
 }
 .top-banner{
     background-image: url('images/top-banner.png');
@@ -25,6 +23,7 @@ h1{
 }
 section{
     height: 500px;
+    margin-bottom: 150px;
 }
 .link-button{
     text-decoration: none;
@@ -33,4 +32,12 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: bold;
+}
+.dream-area{
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h2{
+    font-size: 40px;
 }
