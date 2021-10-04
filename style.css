@@ -11,13 +11,11 @@ h1{
 .half-width{
     width: 40%;
     margin-left: 5%;
-    padding-left: 2px;
+    padding-left: 2%;
     float: left;
 }
 .half-width img{
     width: 80%;
-    margin-top: 5%;
-    float: right;
 }
 .top-banner{
     background-image: url('images/top-banner.png');
@@ -25,6 +23,7 @@ h1{
 }
 section{
     height: 500px;
+    margin-bottom: 150px;
 }
 .link-button{
     text-decoration: none;
@@ -33,4 +32,40 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: bold;
+}
+.dream-area{
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h2{
+    font-size: 40px;
+}
+.exp-area{
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-exp{
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+#full-stack{
+    border-left: 7px solid blue;
+    border-image: line;
+}
+#baby-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    color: dimgray;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#h-center{
+    text-align: center;
 }
